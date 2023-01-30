@@ -1,0 +1,19 @@
+ p{
+    background-color: black;
+    box-shadow: 20px 20px 25px coral;
+    border: 2px;
+    line-break: 30px;
+    font-size: larger;
+    word-spacing: 4px;
+    text-align:center;
+    padding: 20px;
+    margin-bottom: 50px;
+     color: aqua; 
+     border-radius: 20px; 
+    -ms-transform-origin-x:20px ; 
+}
+
+.p1{
+    color: orangered;
+    box-shadow: 20px 20px 25px purple;   
+ }

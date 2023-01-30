@@ -1,0 +1,52 @@
+h1 {
+    color: black;
+    text-decoration: underline overline rgba(12, 12, 8, 0.836);
+    text-transform: uppercase;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Explora', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Solitreo', cursive;
+    ;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(189, 113, 21);
+}
+
+table {
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314__340.jpg);
+    /* border: 2px solid black; */
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Explora', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Solitreo', cursive;
+    border-radius: 10px;
+    box-shadow: 20px 25px 20px;
+    /* border-spacing:10px; */
+    height: 80%;
+
+}
+
+td,
+th {
+    border: 3px solid rgb(92, 42, 6);
+    padding: 5px;
+    border-top-color: rgb(18, 241, 104);
+    border-bottom-color: rgb(18, 241, 104);
+    border-right-color: rgb(255, 255, 0);
+    border-left-color: rgb(255, 255, 0);
+    border-radius: 20px;
+}
+
+td:hover {
+    background-color: rgb(83, 39, 7);
+    color: wheat;
+    /* transform: translate(5) */
+    transition: calc(1s);
+}
